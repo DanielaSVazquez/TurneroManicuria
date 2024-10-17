@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../img/DV grande.png" type="image/png">
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <title>DV Nails</title>
+</head>
+
+
+<body>
+
+<!--Navbar-->
+
+<nav class=" navbar navbar-expand-lg bg-body-tertiary fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="../img/25mil grande.png" alt="Logo" width="100" height="100" >
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav " >
+        <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#QuienesSomos">Quienes Somos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Servicios">Servicios</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#Reservar" class="btn btn-primary" data-bs-toggle="modal"  data-bs-target="#staticBackdrop">Reservar</a> </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#Contacto">Contacto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Ubicacion">Ubicacion</a>
+      </li>
+
+       </ul>
+      </div>
+         <div>
+         <a class="nav-link" href="../../index.html">Cerrar Sesion</a>
+          </div>
+      </div>
+    
+    </nav>
+
+ 
+    
+      <!--header -->
+
+    <header class="header2">  
+      <h1>Centro de manicuria</h1>
+      <p>
+        No te quedes sin tu turno
+    </p>
+     
+      <a class="boton"  href="#Reservar"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">Reservar</a> 
+    </header>
+
+
+
+      <!--Modal -->
+      
+      <div class="modal fade" id="staticBackdrop"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">Reserve su Turno</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+      
+            <div class="modal-body" id="Reservar">
+             <!-- <form action="" id="formulario">-->
+               <form>
+                <div class="form-group row">
+                  <label class="col-sm-4 col-lg-4 col-form-label">Nombre:</label>
+                  <div class="col-sm-8 col-lg-8">
+                      <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Nombre">
+                  </div>
+              </div>
+              <br>
+              <div class="form-group row">
+                  <label class="col-sm-4 col-lg-4 col-form-label">Correo Electrónico:</label>
+                  <div class="col-sm-8 col-lg-8">
+                      <input type="text" id="correo" name="correo" class="form-control"  placeholder="Correo Electrónico">
+                  </div>
+              </div>
+              <br>
+              <div class="form-group row">
+                  <label class="col-sm-4 col-lg-4 col-form-label">Teléfono:</label>
+                  <div class="col-sm-8 col-lg-8">
+                      <input type="tel" id="telefono" name="telefono" class="form-control"  placeholder="Número de Teléfono">
+                  </div>
+              </div>
+              <br>
+              <div class="form-group row" >
+                  <label class="col-sm-4 col-lg-4 col-form-label" >Fecha:</label>
+                  <div class="col-sm-8 col-lg-8">
+                      <input type="date" id="fecha" name="fecha" class="form-control">
+                  </div>
+                 
+              </div>
+        <br>
+              <div class="form-group row">
+                  <label class="col-sm-4 col-lg-4 col-form-label">Hora:</label>
+                  <div class="col-sm-8 col-lg-8">
+                      <input type="time" id="hora" name="hora" class="form-control">
+                  </div>
+              </div>
+
+               <div class="form-group row">
+                <label class="col-sm-4 col-lg-4 col-form-label">Seleccione el/los servicios:</label><br>
+                <div class="col-sm-8 col-lg-8"><br>
+              <input type="checkbox" id="servicio1" name="servicio1" value="Semipermanente">
+              <label for="servicio1"> Esmaltado Semipermanente</label><br>
+              <input type="checkbox" id="servicio2" name="servicio2" value="soft">
+              <label for="servicio2"> Soft gel</label><br>
+              <input type="checkbox" id="servicio3" name="servicio3" value="tradicional">
+              <label for="servicio3"> Esmaltado tradicional</label><br>
+              <input type="checkbox" id="servicio4" name="servicio4" value="pies">
+              <label for="servicio4"> Belleza de pies</label><br>
+              </div>
+               </div>
+
+              </form>
+      
+          </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-primary">Reservar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      
+
+
+
+<!--Principal-->
+
+    <section id="QuienesSomos" >
+     <div class="principal">
+      <h1 >Quienes Somos</h1>
+      <p>El cuidado de las uñas ha tomado auge en los últimos años y se ha convertido en un accesorio fundamental de la moda. Desde el año 2011 nos especializamos y profesionalizamos para ser líderes en el cuidado de manos y pies. Ofrecemos a nuestros clientas un servicio de alto nivel con productos de calidad y con una duración óptima, siempre a la vanguardia en productos, colores y tendencias.</p>
+      </div>
+    
+     </section>
+   
+
+<!--Servicios-->
+
+<div class="service" id="Servicios">
+     <h1>Nuestros Servicios</h1>
+<div class="container" >
+  
+    <div class="card" >
+       <figure>
+          <img src="../img/tarjeta1.jpg" alt="" >
+              <div class="contenido">
+            <h3>Esmaltado Semipermanente</h3>
+               <p>Uñas brillantes y perfectas de 15 a 20 días con nuestros esmaltes Nails Gel. ESMALTADO SEMI-PERMANENTE no lleva limado de la superficie y se retira simplemente con Nails&Co Remover, rico en aceites especiales que ayudan al cuidado de las uñas.
+                </p>
+               <a href="../views/Semi.html">Ver mas</a>
+
+          </div>
+       </figure>
+      </div>
+
+      <div class="card" >
+        <figure>
+           <img src="../img/tarjeta2.jpg" alt="">
+           <div class="contenido">
+                <h3>Soft gel</h3>
+                <p>El sistema Soft Gel es una gran solución para dejar de dañar tus uñas y qué crezcan sanas y fuertes. Se les dá la forma y extensión qué el cliente prefiera. Tus manos se verán perfectas y naturales instantáneamente.</p>
+                <a href="../views/Soft.html">Ver mas</a>
+ 
+           </div>
+        </figure>
+       </div>
+
+       <div class="card">
+        <figure >
+           <img src="../img/tarjeta3.jpg" alt="">
+           <div class="contenido">
+                <h3>Esmaltado tradicional</h3>
+                <p>Duración del turno: 15 minutos.<br>
+                Las uñas duran 1 semana aproximadamente.<br>
+                 Manicure EXPRESS incluye: Limado, pulido y esmaltado.<br></p>
+                <a href="../views/Tradicional.html">Ver mas</a>
+ 
+           </div>
+        </figure>
+       </div>
+
+       <div class="card" >
+        <figure>
+           <img src="../img/tarjeta4.jpg" alt="">
+           <div class="contenido">
+                <h3>Belleza de pies</h3>
+                <p>Duración del turno: 30 minutos.<br>
+                   Las uñas duran 15 días aproximadamente.<br>
+                   Pedicure BASIC incluye: limado, cutícula, esmaltado e hidratación con crema de almendras.<br>
+                   </p>
+                <a href="../views/Pedicure.html">Ver mas</a>
+ 
+           </div>
+        </figure>
+       </div>
+</div>
+      </div>
+      
+      
+  
+
+ <!--Contacto-->
+ 
+ <article id="Contacto" > 
+  
+   <h1>Contacto</h1>
+   <div class="row">
+       <div class="col-md-10">
+        <form action="">
+             <div class="row">
+          <label class="col-sm-4 " for="name">Nombre:</label>
+               <div class="col-sm-8 ">
+          <input type="text" id="name" name="name" placeholder="Nombre">
+        </div>
+      </div>
+      <div class="row">
+          <label  class="col-sm-4" for="correo">Correo Electrónico:</label>
+          <div class="col-sm-8">
+          <input type="text" id="correo" name="correo" placeholder="Correo Electrónico">
+        </div>
+      </div>
+         <div class="row">
+          <label class="col-sm-4" for="correo">Consulta:</label>
+          <div class="col-sm-8">
+          <textarea name="consulta" id="consulta" cols="30" rows="10" placeholder="Consulta"></textarea>
+          <button type="button" id="boton">Enviar</button>
+        </div>
+      </div>
+        </form>
+      </div>
+    </div>
+</article>
+
+
+
+<!--Footer 1-->
+
+<footer class="pie-pagina" id="Ubicacion">
+     <div class="col-1">
+        <div class="row">
+          <figure>
+            <a href="#">
+              <img src="../img/logo 25mil.png" alt="logo">
+            </a>
+          </figure>
+        </div>
+      <div class="row">
+            <h2>Seguinos</h2>
+          <div class="redsocial">
+            <a href="" class="fa fa-facebook fa-2xl"></a>
+            <a href="" class="fa fa-instagram fa-2xl"></a>
+            <a href="" class="fa fa-whatsapp fa-2xl"></a>
+        </div>
+     </div>
+    <div class="row">
+    <h2>Ubicacion</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3140.3944770060525!2d-57.569222924796!3d-38.084480749557336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584de02008e69bf%3A0x55cfece13d1f835e!2sBosque%20Peralta%20Ramos!5e0!3m2!1ses!2sar!4v1689708621339!5m2!1ses!2sar" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       
+    </div>
+    
+</footer>
+
+<!--Footer 2-->
+   <footer>
+       &copy; Daniela Vázquez, 2023
+   </footer>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <script src="../js/main.js"></script><!--carperta js-->
+    <script src="https://kit.fontawesome.com/9720da13c1.js" crossorigin="anonymous"></script><!--iconos-->
+</body>
+</html>

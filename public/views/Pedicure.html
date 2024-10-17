@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../img/DV grande.png" type="image/png">
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <title>Belleza de pies</title>
+
+</head>
+
+<body>
+
+
+       <!--Navbar -->
+   
+       <nav class=" navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="../views/Principal.html">
+            <img src="../img/25mil grande.png" alt="Logo" width="100" height="100" >
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav " >
+              <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../views/Principal.html">Home</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="../views/Principal.html #QuienesSomos">Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../views/Principal.html #Servicios">Servicios</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#Reservar" class="btn btn-primary" data-bs-toggle="modal"  data-bs-target="#staticBackdrop">Reservar</a> </li>
+              <li class="nav-item">
+              <a class="nav-link" href="../views/Principal.html #Contacto">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Ubicacion">Ubicacion</a>
+            </li>
+             </ul>
+            </div>
+           
+            </div>
+          
+          </nav>
+
+    
+
+
+      <!--header-->
+   <header class="header2">
+   
+     <h1>Nuestros Servicios</h1>
+    
+   </header>
+
+<!--Modal -->
+      
+<div class="modal fade" id="staticBackdrop"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Reserve su Turno</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+  
+        <div class="modal-body" id="Reservar">
+         <!-- <form action="" id="formulario">-->
+           <form>
+            <div class="form-group row">
+              <label class="col-sm-4 col-lg-4 col-form-label">Nombre:</label>
+              <div class="col-sm-8 col-lg-8">
+                  <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Nombre">
+              </div>
+          </div>
+          <br>
+          <div class="form-group row">
+              <label class="col-sm-4 col-lg-4 col-form-label">Correo Electrónico:</label>
+              <div class="col-sm-8 col-lg-8">
+                  <input type="text" id="correo" name="correo" class="form-control"  placeholder="Correo Electrónico">
+              </div>
+          </div>
+          <br>
+          <div class="form-group row">
+              <label class="col-sm-4 col-lg-4 col-form-label">Teléfono:</label>
+              <div class="col-sm-8 col-lg-8">
+                  <input type="tel" id="telefono" name="telefono" class="form-control"  placeholder="Número de Teléfono">
+              </div>
+          </div>
+          <br>
+          <div class="form-group row">
+              <label class="col-sm-4 col-lg-4 col-form-label">Fecha:</label>
+              <div class="col-sm-8 col-lg-8">
+                  <input type="date" id="fecha" name="fecha" class="form-control">
+              </div>
+          </div>
+    <br>
+          <div class="form-group row">
+              <label class="col-sm-4 col-lg-4 col-form-label">Hora:</label>
+              <div class="col-sm-8 col-lg-8">
+                  <input type="time" id="hora" name="hora" class="form-control">
+              </div>
+          </div>
+          </form>
+  
+  </div>
+        <div class="modal-footer">
+           <button type="button" class="btn btn-primary">Reservar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  
+
+
+  <!--Main-->
+   <section>
+    <div class="principal">
+       <h1>Belleza de pies</h1>
+       <p>Consiste en el arreglo de las uñas, donde se cortan, se liman y se dan forma a la uñas. También se empujan, se limpian y se cortan las cutículas. Para finalizar se realiza el esmaltado en gel.</p>
+    </div>
+   </section>
+
+
+
+    <!--Galeria-->
+
+  <aside >
+       <div class="container-gallery">
+            <div class="heading">
+            <h1>Photo <span>Gallery</span></h1>
+        </div>
+         
+    <div class="grid-container">
+            <div class="Gallery">
+               <button type="button"  data-bs-toggle="modal" data-bs-target="#foot1">
+                     <img src="../img/foot1.png" width="250px" height="250px">
+               </button>
+  
+        <div class="modal fade" id="foot1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-body">
+                   <img src="../img/foot1.png" width="450" height="550">
+                </div>
+            </div>
+         </div>
+       </div>
+      
+
+    <div class="Gallery">
+       <button type="button"  data-bs-toggle="modal" data-bs-target="#foot2">
+        <img src="../img/foot2.png" width="250" height="250">
+       </button>
+      <div class="modal fade" id="foot2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-body">
+                 <img src="../img/foot2.png" width="450" height="550">
+                 </div>
+             </div>
+   
+        </div>
+     </div>
+
+
+      <div class="Gallery">
+     <button type="button"  data-bs-toggle="modal" data-bs-target="#foot3">
+        <img src="../img/foot3.png" width="250" height="250">
+       </button>
+      <div class="modal fade" id="foot3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-body">
+                 <img src="../img/foot3.png" width="450" height="550">
+                 </div>
+             </div>
+           </div>
+       </div>
+
+
+       <div class="Gallery">
+        <button type="button"  data-bs-toggle="modal" data-bs-target="#foot4">
+           <img src="../img/foot4.png" width="250" height="250">
+          </button>
+         <div class="modal fade" id="foot4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+             <div class="modal-dialog">
+                 <div class="modal-body">
+                    <img src="../img/foot4.png" width="450" height="550">
+                    </div>
+                </div>
+              </div>
+          </div>
+
+       
+          <div class="Gallery">
+            <button type="button"  data-bs-toggle="modal" data-bs-target="#foot5">
+               <img src="../img/foot5.png" width="250" height="250">
+              </button>
+             <div class="modal fade" id="foot5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog">
+                     <div class="modal-body">
+                        <img src="../img/foot5.png" width="450" height="550">
+                        </div>
+                    </div>
+                  </div>
+              </div>
+
+  
+              <div class="Gallery">
+                <button type="button"  data-bs-toggle="modal" data-bs-target="#foot6">
+                   <img src="../img/foot6.png" width="250" height="250">
+                  </button>
+                 <div class="modal fade" id="foot6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                     <div class="modal-dialog">
+                         <div class="modal-body" width="450" height="550">
+                            <img src="../img/foot6.png" width="450" height="550">
+                        </div>
+                         </div>
+                      </div>
+                  </div>
+
+
+                  <div class="Gallery">
+                    <button type="button"  data-bs-toggle="modal" data-bs-target="#foot7">
+                       <img src="../img/foot7.png" width="250" height="250">
+                      </button>
+                     <div class="modal fade" id="foot7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                         <div class="modal-dialog">
+                             <div class="modal-body">
+                                <img src="../img/foot7.png" width="450" height="550">
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+
+
+                      <div class="Gallery">
+                        <button type="button"  data-bs-toggle="modal" data-bs-target="#foot8">
+                           <img src="../img/foot8.png" width="250" height="250">
+                          </button>
+                         <div class="modal fade" id="foot8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                             <div class="modal-dialog">
+                                 <div class="modal-body">
+                                    <img src="../img/foot8.png" width="450" height="550">
+                                    </div>
+                                </div>
+                              </div>
+                          </div>
+
+
+                          <div class="Gallery">
+                            <button type="button"  data-bs-toggle="modal" data-bs-target="#foot9">
+                               <img src="../img/foot9.png" width="250" height="250">
+                              </button>
+                             <div class="modal fade" id="foot9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                 <div class="modal-dialog">
+                                     <div class="modal-body">
+                                        <img src="../img/foot9.png" width="450" height="550">
+                                        </div>
+                                    </div>
+                                  </div>
+                              </div>
+
+
+                              <div class="Gallery">
+                                <button type="button"  data-bs-toggle="modal" data-bs-target="#foot10">
+                                   <img src="../img/foot10.png" width="250" height="250">
+                                  </button>
+                                 <div class="modal fade" id="foot10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                     <div class="modal-dialog">
+                                         <div class="modal-body">
+                                            <img src="../img/foot10.png" width="450" height="550">
+                                            </div>
+                                        </div>
+                                      </div>
+                                  </div>
+
+
+                                  <div class="Gallery">
+                                    <button type="button"  data-bs-toggle="modal" data-bs-target="#foot11">
+                                       <img src="../img/foot11.png" width="250" height="250">
+                                      </button>
+                                     <div class="modal fade" id="foot11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                         <div class="modal-dialog">
+                                             <div class="modal-body">
+                                                <img src="../img/foot11.png" width="450" height="550">
+                                                </div>
+                                            </div>
+                                          </div>
+                                      </div>
+
+
+
+                                      <div class="Gallery">
+                                        <button type="button"  data-bs-toggle="modal" data-bs-target="#foot12">
+                                           <img src="../img/foot12.png" width="250" height="250">
+                                          </button>
+                                         <div class="modal fade" id="foot12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                             <div class="modal-dialog">
+                                                 <div class="modal-body">
+                                                    <img src="../img/foot12.png" width="450" height="550">
+                                                    </div>
+                                                </div>
+                                              </div>
+                                          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     </div>
+    </div>
+</aside>
+  
+
+
+
+
+
+
+   <!--Footer 1-->
+
+<footer class="pie-pagina" id="Ubicacion">
+    <div class="col-1">
+       <div class="row">
+         <figure>
+           <a href="#">
+             <img src="../img/logo 25mil.png" alt="logo">
+           </a>
+         </figure>
+       </div>
+     <div class="row">
+           <h2>Seguinos</h2>
+         <div class="redsocial">
+           <a href="" class="fa fa-facebook fa-2xl"></a>
+           <a href="" class="fa fa-instagram fa-2xl"></a>
+           <a href="" class="fa fa-whatsapp fa-2xl"></a>
+       </div>
+    </div>
+   <div class="row">
+   <h2>Ubicacion</h2>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3140.3944770060525!2d-57.569222924796!3d-38.084480749557336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584de02008e69bf%3A0x55cfece13d1f835e!2sBosque%20Peralta%20Ramos!5e0!3m2!1ses!2sar!4v1689708621339!5m2!1ses!2sar" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      
+   </div>
+   
+</footer>
+
+<!--Footer 2-->
+  <footer>
+      &copy; Daniela Vázquez, 2023
+  </footer>
+
+
+
+
+
+   <!--JS-->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+   <script src="../js/main.js"></script><!--carperta js-->
+   <script src="https://kit.fontawesome.com/9720da13c1.js" crossorigin="anonymous"></script><!--iconos-->
+
+
+
+</body>
+</html>
